@@ -1,0 +1,30 @@
+header {
+    position: fixed;
+    background-color: black;
+    color: white;
+    width: 100%;
+    z-index: 1;
+}
+svg{
+    margin-left: 20px;
+    color: var(--dark);
+    color: var(--light);
+    text-decoration: none;
+    margin: 9px;
+    color: var(--dark);
+   
+}
+.sub-nav {
+  grid-area: sb;
+  padding: 0 40px 0 40px;
+}
+
+.sub-nav a {
+  color: var(--light);
+  text-decoration: none;
+  margin: 5px;
+}
+
+.sub-nav a:hover {
+  color: var(--dark);
+}
